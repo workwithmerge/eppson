@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>
+  <meta charset="utf-8" />
+  <title>Notebook | Web Application</title>
+  <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/font.css" type="text/css" />
+  <link rel="stylesheet" href="js/calendar/bootstrap_calendar.css" type="text/css" />
+  <link rel="stylesheet" href="css/app.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="js/ie/html5shiv.js"></script>
+    <script src="js/ie/respond.min.js"></script>
+    <script src="js/ie/excanvas.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <section class="vbox">
+    <header class="bg-dark dk header navbar navbar-fixed-top-xs">
+      <div class="navbar-header aside-md">
+        <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#" class="navbar-brand" data-toggle="fullscreen"><img src="images/logo.png" class="m-r-sm">English Pro</a>
+        <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user">
+          <i class="fa fa-cog"></i>
+        </a>
+      </div>  
+
+    </header>
+    <section>
+      <section class="hbox stretch">
+        <!-- .aside -->
+        <aside class="bg-dark lter aside-md hidden-print" id="nav">          
+          <section class="vbox">
+            <section class="w-f scrollable">
+              <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
+                
+                <!-- nav -->
+                <nav class="nav-primary hidden-xs">
+                  <ul class="nav">
+                    <li >
+                      <a href="index.html"  >
+                        <i class="fa fa-home">
+                          <b class="bg-info"></b>
+                        </i>
+                        <span>Dashboard</span>
+                      </a>
+                    </li>
+                    <li class="active">
+                      <a href="#layout" class="active">
+                        <i class="fa fa-columns icon">
+                          <b class="bg-warning"></b>
+                        </i>
+                        <span class="pull-right">
+                          <i class="fa fa-angle-down text"></i>
+                          <i class="fa fa-angle-up text-active"></i>
+                        </span>
+                        <span>Nouns</span>
+                      </a>
+                      <ul class="nav lt">
+                        <li >
+                          <a href="Nouns.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Singular and Plural Nouns</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Pronouns.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pronouns</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Possessive.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Possessive Noun</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Count.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Count Nouns vs. Non-Count Nouns</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li >
+                      <a href="#uikit"  >
+                        <i class="fa fa-flask icon">
+                          <b class="bg-success"></b>
+                        </i>
+                        <span class="pull-right">
+                          <i class="fa fa-angle-down text"></i>
+                          <i class="fa fa-angle-up text-active"></i>
+                        </span>
+                        <span>Verbs</span>
+                      </a>
+                      <ul class="nav lt">
+                        <li >
+                          <a href="Be.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>'Be' Verbs</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Action.html" >                                                       
+                            <i class="fa fa-angle-right"></i>
+                            <span>Action Verbs</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Irregular.html" >                                                       
+                            <i class="fa fa-angle-right"></i>
+                            <span>Irregular Verbs</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="AuxiliaryBDH.html" >                                                       
+                            <i class="fa fa-angle-right"></i>
+                            <span>Auxiliary Verbs "Be," "Do," "Have"</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="AuxiliaryWS.html" >                                                       
+                            <i class="fa fa-angle-right"></i>
+                            <span>Auxiliary Verbs "Will/Would" and "Shall/Should"</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="AuxiliaryCM.html" >                                                       
+                            <i class="fa fa-angle-right"></i>
+                            <span>Auxiliary Verbs "Can/Could" and "May/Might/Must"</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li >
+                      <a href="#uikit"  >
+                        <i class="fa fa-flask icon">
+                          <b class="bg-danger"></b>
+                        </i>
+                        <span class="pull-right">
+                          <i class="fa fa-angle-down text"></i>
+                          <i class="fa fa-angle-up text-active"></i>
+                        </span>
+                        <span>Adverbs</span>
+                      </a>
+                      <ul class="nav lt">
+                        <li >
+                          <a href="Adverbs.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Adverbs</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Conjunctive.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Conjunctive Adverbs</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li >
+                      <a href="#uikit"  >
+                        <i class="fa fa-flask icon">
+                          <b style="background-color: #ff751a;"></b>
+                        </i>
+                        <span class="pull-right">
+                          <i class="fa fa-angle-down text"></i>
+                          <i class="fa fa-angle-up text-active"></i>
+                        </span>
+                        <span>Adjectives</span>
+                      </a>
+                      <ul class="nav lt">
+                        <li >
+                          <a href="Adjectives.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Adjectives</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Comparative.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Comparative and Superlative Adjectives</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <li>
+                          <a href="About.html">
+                            <i class="fa fa-bullhorn">
+                              <b style="background-color: #990033;"></b>
+                            </i>
+                            <span>About US</span>
+                          </a>
+                        </li>
+                    </li>
+                  </ul>
+                </nav>
+                <!-- / nav -->
+              </div>
+            </section>
+            
+            <footer class="footer lt hidden-xs b-t b-dark">
+              <a href="#nav" data-toggle="class:nav-xs" class="pull-right btn btn-sm btn-dark btn-icon">
+                <i class="fa fa-angle-left text"></i>
+                <i class="fa fa-angle-right text-active"></i>
+              </a>
+            </footer>
+          </section>
+        </aside>
+        <!-- /.aside -->
+        <section id="content">
+          <section class="vbox">          
+            <section class="scrollable padder">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <center>
+                    <h1 class="display-4" style="color: #0099e6;">Singular and Plural Nouns</h1>
+                    <p class="lead">A noun names a person, place, thing, or idea.</p>
+                    <p>Usually, the first page of a grammar book tells you about nouns. Nouns give names of concrete or abstract things in our lives. As babies learn "mom," "dad," or "milk" as their first word, nouns should be the first topic when you study a foreign language.</p>
+                  </center>
+                </div>
+              </div>
+              <!-- start -->
+                  <div class="row" style="font-size: 16px;">
+                    <div class="col-sm-12">
+                      <section class="panel">
+                        <div class="panel-body">
+                          <p><b>For the plural form of most nouns, add s.</b></p>
+                          <ul>
+                            <li>bottle – bottles</li>
+                            <li>cup – cups</li>
+                            <li>pencil – pencils</li>
+                            <li>desk – desks</li>
+                            <li>sticker – stickers</li>
+                            <li>window – windows</li>
+                          </ul><hr>
+                          <p><b>For nouns that end in ch, x, s, or s sounds, add es.</b></p>
+                          <ul>
+                            <li>box – boxes</li>
+                            <li>watch – watches</li>
+                            <li>moss – mosses</li>
+                            <li>bus – buses</li>
+                          </ul><hr>
+                          <p><b>For nouns that end in ch, x, s, or s sounds, add es.</b></p>
+                          <ul>
+                            <li>box – boxes</li>
+                            <li>watch – watches</li>
+                            <li>moss – mosses</li>
+                            <li>bus – buses</li>
+                          </ul><hr>
+                          <p><b>For nouns ending in f or fe, change f to v and add es.</b></p>
+                          <ul>
+                            <li>wolf – wolves</li>
+                            <li>wife – wives</li>
+                            <li>leaf – leaves</li>
+                            <li>life – lives</li>
+                          </ul><hr>
+                          <!--  -->
+                          <p><b>Some nouns have different plural forms.</b></p>
+                          <ul>
+                            <li>child – children</li>
+                            <li>woman – women</li>
+                            <li>man – men</li>
+                            <li>goose – geese</li>
+                            <li>mouse – mice</li>
+                          </ul><hr>
+                          <!--  -->
+                          <p><b>Nouns ending in vowels like y or o do not have definite rules.</b></p>
+                          <ul>
+                            <li>baby – babies</li>
+                            <li>toy – toys</li>
+                            <li>kidney – kidneys</li>
+                            <li>potato – potatoes</li>
+                            <li>memo – memos</li>
+                            <li>stereo – stereos</li>
+                          </ul><hr>
+                          <!--  -->
+                          <p><b>A few nouns have the same singular and plural forms.</b></p>
+                          <ul>
+                            <li>sheep – sheep</li>
+                            <li>deer – deer</li>
+                            <li>series – series</li>
+                            <li>species – species</li>
+                          </ul><hr>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+              <!-- end -->
+            </section>
+          </section>
+          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
+        </section>
+      </section>
+    </section>
+  </section>
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.js"></script>
+  <!-- App -->
+  <script src="js/app.js"></script>
+  <script src="js/app.plugin.js"></script>
+  <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="js/charts/easypiechart/jquery.easy-pie-chart.js"></script>
+  <script src="js/charts/sparkline/jquery.sparkline.min.js"></script>
+  <script src="js/charts/flot/jquery.flot.min.js"></script>
+  <script src="js/charts/flot/jquery.flot.tooltip.min.js"></script>
+  <script src="js/charts/flot/jquery.flot.resize.js"></script>
+  <script src="js/charts/flot/jquery.flot.grow.js"></script>
+  <script src="js/charts/flot/demo.js"></script>
+
+  <script src="js/calendar/bootstrap_calendar.js"></script>
+  <script src="js/calendar/demo.js"></script>
+
+  <script src="js/sortable/jquery.sortable.js"></script>
+
+</body>
+</html>

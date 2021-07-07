@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>
+  <meta charset="utf-8" />
+  <title>Notebook | Web Application</title>
+  <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/font.css" type="text/css" />
+  <link rel="stylesheet" href="js/calendar/bootstrap_calendar.css" type="text/css" />
+  <link rel="stylesheet" href="css/app.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="js/ie/html5shiv.js"></script>
+    <script src="js/ie/respond.min.js"></script>
+    <script src="js/ie/excanvas.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <section class="vbox">
+    <header class="bg-dark dk header navbar navbar-fixed-top-xs">
+      <div class="navbar-header aside-md">
+        <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#" class="navbar-brand" data-toggle="fullscreen"><img src="images/logo.png" class="m-r-sm">English Pro</a>
+        <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user">
+          <i class="fa fa-cog"></i>
+        </a>
+      </div>
+
+    </header>
+    <section>
+      <section class="hbox stretch">
+        <!-- .aside -->
+        <aside class="bg-dark lter aside-md hidden-print" id="nav">          
+          <section class="vbox">
+            <section class="w-f scrollable">
+              <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
+                
+                <!-- nav -->
+                <nav class="nav-primary hidden-xs">
+                  <ul class="nav">
+                    <li class="active">
+                      <a href="index.html" class="active">
+                        <i class="fa fa-home">
+                          <b class="bg-info"></b>
+                        </i>
+                        <span>Dashboard</span>
+                      </a>
+                    </li>
+                    <li >
+                      <a href="#layout">
+                        <i class="fa fa-columns icon">
+                          <b class="bg-warning"></b>
+                        </i>
+                        <span class="pull-right">
+                          <i class="fa fa-angle-down text"></i>
+                          <i class="fa fa-angle-up text-active"></i>
+                        </span>
+                        <span>Nouns</span>
+                      </a>
+                      <ul class="nav lt">
+                        <li >
+                          <a href="Nouns.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Singular and Plural Nouns</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Pronouns.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pronouns</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Possessive.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Possessive Noun</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Count.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Count Nouns vs. Non-Count Nouns</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li >
+                      <a href="#uikit"  >
+                        <i class="fa fa-book icon">
+                          <b style="background-color:  #47d147;"></b>
+                        </i>
+                        <span class="pull-right">
+                          <i class="fa fa-angle-down text"></i>
+                          <i class="fa fa-angle-up text-active"></i>
+                        </span>
+                        <span>Verbs</span>
+                      </a>
+                      <ul class="nav lt">
+                        <li >
+                          <a href="Be.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>'Be' Verbs</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Action.html" >                                                       
+                            <i class="fa fa-angle-right"></i>
+                            <span>Action Verbs</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Irregular.html" >                                                       
+                            <i class="fa fa-angle-right"></i>
+                            <span>Irregular Verbs</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="AuxiliaryBDH.html" >                                                       
+                            <i class="fa fa-angle-right"></i>
+                            <span>Auxiliary Verbs "Be," "Do," "Have"</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="AuxiliaryWS.html" >                                                       
+                            <i class="fa fa-angle-right"></i>
+                            <span>Auxiliary Verbs "Will/Would" and "Shall/Should"</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="AuxiliaryCM.html" >                                                       
+                            <i class="fa fa-angle-right"></i>
+                            <span>Auxiliary Verbs "Can/Could" and "May/Might/Must"</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li >
+                      <a href="#uikit"  >
+                        <i class="fa fa-flask icon">
+                          <b class="bg-danger"></b>
+                        </i>
+                        <span class="pull-right">
+                          <i class="fa fa-angle-down text"></i>
+                          <i class="fa fa-angle-up text-active"></i>
+                        </span>
+                        <span>Adverbs</span>
+                      </a>
+                      <ul class="nav lt">
+                        <li >
+                          <a href="Adjectives.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Adverbs</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Comparative.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Conjunctive Adverbs</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li >
+                      <a href="#uikit"  >
+                        <i class="fa fa-credit-card icon">
+                          <b style="background-color: #ff751a;"></b>
+                        </i>
+                        <span class="pull-right">
+                          <i class="fa fa-angle-down text"></i>
+                          <i class="fa fa-angle-up text-active"></i>
+                        </span>
+                        <span>Adjectives</span>
+                      </a>
+                      <ul class="nav lt">
+                        <li >
+                          <a href="Adjectives.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Adjectives</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="Comparative.html" >                                                        
+                            <i class="fa fa-angle-right"></i>
+                            <span>Comparative and Superlative Adjectives</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <li>
+                          <a href="About.html">
+                            <i class="fa fa-bullhorn">
+                              <b style="background-color: #990033;"></b>
+                            </i>
+                            <span>About US</span>
+                          </a>
+                        </li>
+                    </li>
+                  </ul>
+                </nav>
+                <!-- / nav -->
+              </div>
+            </section>
+            
+            <footer class="footer lt hidden-xs b-t b-dark">
+              <a href="#nav" data-toggle="class:nav-xs" class="pull-right btn btn-sm btn-dark btn-icon">
+                <i class="fa fa-angle-left text"></i>
+                <i class="fa fa-angle-right text-active"></i>
+              </a>
+            </footer>
+          </section>
+        </aside>
+        <!-- /.aside -->
+        <section id="content">
+          <section class="vbox">          
+            <section class="scrollable padder">
+              <div class="m-b-md">
+                <h3 class="m-b-none">Dashboard</h3>
+                <small>Welcome back, User</small>
+              </div>
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <center>
+                    <h1 class="display-4" style="color: #0099e6;">Basics of English Grammar</h1>
+                    <p class="lead">If you just started learning English, you first need to know some basic rules of the language. Developing a solid foundation in English grammar will not only help you create your own sentences correctly but will also make it easier to improve your communication skills in both spoken and written English.</p>
+                    <p>Study all the lessons below and incorporate your learning into your speaking and writing.</p>
+                  </center>
+                </div>
+              </div>
+              <!-- start -->
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <section class="panel panel-info">
+                        <header class="panel-heading font-bold"><h4>Nouns</h4></header>
+                        <div class="panel-body">
+                          <p>A noun names a person, place, thing, or idea.</p>
+                          <hr>
+                          <a href="Nouns.html" class="btn btn-info">Access</a>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="col-sm-3">
+                      <section class="panel panel-danger">
+                        <header class="panel-heading font-bold"><h4>Verbs</h4></header>
+                        <div class="panel-body">
+                          <p>A verb shows action or a state of being.</p>
+                          <hr>
+                          <a href="Be.html" class="btn btn-info">Access</a>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="col-sm-3">
+                      <section class="panel panel-primary">
+                        <header class="panel-heading font-bold"><h4>Adverbs</h4></header>
+                        <div class="panel-body">
+                          <p>Adverbs modify a verb, an adjective, or another adverb.</p>
+                          <hr>
+                          <a href="Adverbs.html" class="btn btn-info">Access</a>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="col-sm-3">
+                      <section class="panel panel-success">
+                        <header class="panel-heading font-bold"><h4>Adjectives</h4></header>
+                        <div class="panel-body">
+                          <p>Adjectives describe or modify nouns.</p>
+                          <hr>
+                          <a href="Adjectives.html" class="btn btn-info">Access</a>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+              <!-- end -->
+            </section>
+          </section>
+          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
+        </section>
+      </section>
+    </section>
+  </section>
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.js"></script>
+  <!-- App -->
+  <script src="js/app.js"></script>
+  <script src="js/app.plugin.js"></script>
+  <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="js/charts/easypiechart/jquery.easy-pie-chart.js"></script>
+  <script src="js/charts/sparkline/jquery.sparkline.min.js"></script>
+  <script src="js/charts/flot/jquery.flot.min.js"></script>
+  <script src="js/charts/flot/jquery.flot.tooltip.min.js"></script>
+  <script src="js/charts/flot/jquery.flot.resize.js"></script>
+  <script src="js/charts/flot/jquery.flot.grow.js"></script>
+  <script src="js/charts/flot/demo.js"></script>
+
+  <script src="js/calendar/bootstrap_calendar.js"></script>
+  <script src="js/calendar/demo.js"></script>
+
+  <script src="js/sortable/jquery.sortable.js"></script>
+
+</body>
+</html>
